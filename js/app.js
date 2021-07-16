@@ -45,11 +45,11 @@ function calculateTip(billAmount, tipPercentage, numberOfPeople) {
   let tipAmount = (billAmount * (tipPercentage / 100)) / numberOfPeople;
   let tip = Math.floor(tipAmount * 100) / 100;
   tip = tip.toFixed(2);
-  console.log("this is tip", tip);
+  // console.log("this is tip", tip);
 
   let totalAmount = (tipAmount * numberOfPeople + billAmount) / numberOfPeople;
   totalAmount = totalAmount.toFixed(2);
-  console.log("this is total amount", totalAmount);
+  // console.log("this is total amount", totalAmount);
 
   billTipAmount.innerHTML = `$${tip}`;
   billTotalPerPerson.innerHTML = `$${totalAmount}`;
