@@ -60,6 +60,7 @@ img {
   grid-template-columns: 1fr;
   background-color: #fff;
   border-radius: 2rem;
+  box-shadow: 6px 21px 23px -1px rgba(0, 0, 0, 0.1);
 }
 
 /******************* Bill Left Styles *******************/
@@ -181,7 +182,7 @@ input[type="number"]::-webkit-outer-spin-button {
 
 .bill-right {
   margin: 3rem;
-  padding: 3rem;
+  padding: 2rem;
   border-radius: 2rem;
   background-color: var(--very-dark-cyan);
   display: flex;
@@ -233,6 +234,6 @@ input[type="number"]::-webkit-outer-spin-button {
   }
 
   .container {
-    height: 45rem;
+    height: 47rem;
   }
 }
